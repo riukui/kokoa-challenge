@@ -1,0 +1,54 @@
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+@import "components/no-mobile.css";
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+
+body {
+    font-family:fantasy;
+    height: 90vh;
+    color: #2e363e;
+}
+.main-screen {
+    padding: 40px var(--horizontal-space);
+    color: var(--yellow);
+}
+.main-settings {
+    margin-top: -20px;
+}
+.chats-screen {
+    margin-top: 90px;
+}
+.find-screen {
+    margin-top: 90px;
+}
+.more-screen {
+    margin-top: 90px;
+}
+.back-ground__color {
+    background-color: #261216;
+}
+.back-ground__img {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}

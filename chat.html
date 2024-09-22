@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Chat w/ OJB - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <img class="chat-screen__image" src="img/back_ground.jpeg">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:31</span>
+        </div>
+        <div class="status-bar__column">
+            <span>80%</span>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-solid fa-chevron-left fa-xl"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Dracula</h1>
+        </div>
+        <div class="alt-header__column">
+            <span class="chat__icons"><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span class="chat__icons"><i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Thursday, October 31, 2024
+        </div>
+        <div class="message-row">
+            <img src="img/dracula.jpeg">
+            <div class="message-row__content">
+                <span class="message__author">Dracula</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">6:21</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi nice to meet you!</span>
+                    <span class="message__time">6:24</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="img/dracula.jpeg">
+            <div class="message-row__content">
+                <span class="message__author">Dracula</span>
+                <div class="message__info">
+                    <span class="message__bubble">How r u?</span>
+                    <span class="message__time">6:26</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <form class="reply" action="">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+            <i class="fa-regular fa-face-smile fa-xl"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <img class="no-mobile__img" src="img/hello_halloween.jpeg">
+        <span>Your screen is too big!</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4f5a69556f.js" crossorigin="anonymous">        
+    </script>
+</body>
+</html>

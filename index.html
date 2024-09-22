@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Welcome to Halloween Talk</title>
+</head>
+<body>
+    <img class="welcome-img" src="img/hello.jpeg">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>10:31</span>
+        </div>
+        <div class="status-bar__column">
+            <span>80%</span>
+            <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Pumpkin Talk</h1>
+        <p class="welcome-header__text">If you have a Pumpkin Account, log in with your email or phone number.</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" required type="text" placeholder="Email or Phone number">
+        <input name="password" required type="password" placeholder="Password" minlength="6">
+        <input type="submit" value="Log In">
+        <input type="submit" value="Sign Up">
+        <a class="find-account" href="#">Find Pumpkin Account of Password</a>
+    </form>
+
+    <div id="no-mobile">
+        <img class="no-mobile__img" src="img/hello_halloween.jpeg">
+        <span>Your screen is too big 🎃</span>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/4f5a69556f.js" crossorigin="anonymous">        
+    </script>
+</body>
+</html>

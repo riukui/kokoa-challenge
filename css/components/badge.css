@@ -1,0 +1,39 @@
+.badge {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 12.5px;
+    color: white;
+    font-weight: 600;
+
+}
+.badge-dot {
+    display: flex;
+    background-color: tomato;
+    padding: 4px;
+    border-radius: 50%;
+    
+}
+.header-dot {
+    position: absolute;
+    top: -12px;
+    left: 130px;
+}
+.header-dot2 {
+    position: absolute;
+    top: -12px;
+    left: 176px;
+}
+.header-dot3 {
+    position: absolute;
+    top: -12px;
+    left: 84.4px;
+}
+.header-dot4 {
+    position: absolute;
+    top: -12px;
+    left: 130.8px;
+}
